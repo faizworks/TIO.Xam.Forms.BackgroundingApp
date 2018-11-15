@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:BackgroundingApp" x:Class="BackgroundingApp.MainPage">
+    <StackLayout Orientation="Vertical">
+        <!-- Place new controls here -->
+        <Button x:Name="btnStart" Text="Start long runnning task!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="Handle_Clicked" />
+        <Button x:Name="btnEnd" Text="Start long runnning task!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="Handle_Clicked_1" />
+        <Label x:Name="lblStatus" Text="a" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>
